@@ -22,6 +22,8 @@ setup(
     license='BSD',
     packages=[
         'dynamic_forms',
+        'dynamic_forms.contrib',
+        'dynamic_forms.contrib.simple_captcha',
         'dynamic_forms.migrations',
     ],
     package_data={
